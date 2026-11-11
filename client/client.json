@@ -1,0 +1,234 @@
+{
+  "name": "WebLuxe Cars",
+  "legalName": "WebLuxe Cars",
+  "logoText": [
+    "WebLuxe",
+    "Cars"
+  ],
+  "logoFile": "",
+  "siteUrl": "",
+  "street": "24 Royal Road",
+  "locality": "Phoenix",
+  "country": "Mauritius",
+  "mapsQuery": "Royal Road, Phoenix, Mauritius",
+  "geo": {
+    "lat": -20.2869,
+    "lon": 57.4936
+  },
+  "timeZone": "Indian/Mauritius",
+  "phones": [
+    "5123 4567"
+  ],
+  "dialCode": "230",
+  "whatsapp": "0",
+  "email": "sales@webluxecars.mu",
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": ""
+  },
+  "hours": {
+    "mon": [
+      "09:00",
+      "17:00"
+    ],
+    "tue": [
+      "09:00",
+      "17:00"
+    ],
+    "wed": [
+      "09:00",
+      "17:00"
+    ],
+    "thu": [
+      "09:00",
+      "17:00"
+    ],
+    "fri": [
+      "09:00",
+      "17:00"
+    ],
+    "sat": [
+      "09:00",
+      "15:00"
+    ],
+    "sun": null
+  },
+  "brand": {
+    "accent": "#FFB703",
+    "ink": "#151A21",
+    "tiers": {
+      "mid": {
+        "accent": "#2F6BFF",
+        "ink": "#0B1B33"
+      }
+    }
+  },
+  "currency": "Rs",
+  "finance": {
+    "enabled": true,
+    "partner": "our leasing partners",
+    "rate": 7.5,
+    "depositPct": 20,
+    "months": 60
+  },
+  "since": 2011,
+  "googleRating": {
+    "score": 4.8,
+    "count": 212,
+    "url": ""
+  },
+  "text": {
+    "en": {
+      "headline": "Used cars you can check before you choose.",
+      "sub": "Every car on our forecourt in Phoenix is inspected, priced clearly and ready for a test drive today.",
+      "aboutTitle": "A family forecourt on Royal Road since 2011",
+      "about": [
+        "WebLuxe Cars started with four cars and a tin roof. Today we keep around forty on the forecourt, and we still buy every one of them ourselves.",
+        "We would rather lose a sale than hide a fault. Each car gets a workshop inspection before it goes on sale, and you can bring your own mechanic to look at it."
+      ],
+      "promises": [
+        {
+          "title": "Inspected before it is listed",
+          "body": "Engine, gearbox, brakes, suspension and electrics are checked in our workshop, and you get the written report."
+        },
+        {
+          "title": "The price on the windscreen is the price",
+          "body": "No hidden fees at the desk. Registration transfer is included."
+        },
+        {
+          "title": "Leasing arranged on the spot",
+          "body": "We work with the main leasing companies, and most answers come back the same day."
+        },
+        {
+          "title": "Your old car taken in part exchange",
+          "body": "Bring it along. We value it while you test drive, and take it off the price."
+        }
+      ],
+      "checks": [
+        {
+          "title": "Engine and gearbox",
+          "body": "Compression, leaks, mounts and a road test through every gear."
+        },
+        {
+          "title": "Body and paint",
+          "body": "Panel gaps and paint depth measured, so repaired accident damage has nowhere to hide."
+        },
+        {
+          "title": "Mileage and papers",
+          "body": "Service book, import papers and NTA records compared with the odometer."
+        },
+        {
+          "title": "Tyres and brakes",
+          "body": "At least 4 mm of tread and half the pad life left, or we replace them."
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Priya R.",
+          "place": "Quatre Bornes",
+          "text": "They showed me the inspection report before I even asked. Bought the Swift the same afternoon."
+        },
+        {
+          "name": "Jean-Marc L.",
+          "place": "Curepipe",
+          "text": "Fair price for my old Corolla in exchange, and the leasing was sorted in a day."
+        },
+        {
+          "name": "Aslam K.",
+          "place": "Vacoas",
+          "text": "My mechanic came with me and they let him put the car on the lift. No pressure at all."
+        }
+      ]
+    },
+    "fr": {
+      "headline": "Des voitures d'occasion à vérifier avant de choisir.",
+      "sub": "Chaque voiture de notre parc à Phoenix est inspectée, affichée à un prix clair et prête pour un essai dès aujourd'hui.",
+      "aboutTitle": "Un parc familial sur Royal Road depuis 2011",
+      "about": [
+        "WebLuxe Cars a commencé avec quatre voitures sous un toit en tôle. Aujourd'hui nous en gardons une quarantaine sur le parc, et nous les achetons toujours nous-mêmes, une par une.",
+        "Nous préférons perdre une vente que cacher un défaut. Chaque voiture passe par notre atelier avant d'être mise en vente, et vous pouvez venir avec votre propre mécanicien."
+      ],
+      "promises": [
+        {
+          "title": "Inspectée avant d'être affichée",
+          "body": "Moteur, boîte, freins, suspension et électricité sont contrôlés dans notre atelier, et vous recevez le rapport écrit."
+        },
+        {
+          "title": "Le prix sur le pare-brise est le prix",
+          "body": "Aucuns frais cachés au comptoir. Le transfert d'immatriculation est inclus."
+        },
+        {
+          "title": "Leasing arrangé sur place",
+          "body": "Nous travaillons avec les principales sociétés de leasing, et la plupart des réponses arrivent le jour même."
+        },
+        {
+          "title": "Votre ancienne voiture reprise",
+          "body": "Venez avec. Nous l'évaluons pendant votre essai et la déduisons du prix."
+        }
+      ],
+      "checks": [
+        {
+          "title": "Moteur et boîte",
+          "body": "Compression, fuites, supports et un essai sur route sur tous les rapports."
+        },
+        {
+          "title": "Carrosserie et peinture",
+          "body": "Jeux de carrosserie et épaisseur de peinture mesurés : un accident réparé ne peut pas se cacher."
+        },
+        {
+          "title": "Kilométrage et papiers",
+          "body": "Carnet d'entretien, papiers d'importation et dossiers NTA comparés au compteur."
+        },
+        {
+          "title": "Pneus et freins",
+          "body": "Au moins 4 mm de gomme et la moitié des plaquettes, sinon nous les remplaçons."
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Priya R.",
+          "place": "Quatre Bornes",
+          "text": "Ils m'ont montré le rapport d'inspection avant même que je le demande. J'ai acheté la Swift l'après-midi même."
+        },
+        {
+          "name": "Jean-Marc L.",
+          "place": "Curepipe",
+          "text": "Un prix correct pour ma vieille Corolla en reprise, et le leasing réglé en une journée."
+        },
+        {
+          "name": "Aslam K.",
+          "place": "Vacoas",
+          "text": "Mon mécanicien est venu avec moi et ils l'ont laissé mettre la voiture sur le pont. Aucune pression."
+        }
+      ]
+    }
+  },
+  "demo": {
+    "enabled": true,
+    "studio": "WebLuxe",
+    "studioUrl": "https://webluxe.github.io/WebLuxe/",
+    "studioWhatsapp": "",
+    "tiers": {
+      "low": {
+        "label": "Starter",
+        "price": "Rs 15,000",
+        "dir": "LowTier_CarDealership"
+      },
+      "mid": {
+        "label": "Business",
+        "price": "Rs 35,000",
+        "dir": "MidTier_CarDealership"
+      },
+      "high": {
+        "label": "Signature",
+        "price": "Rs 52,000",
+        "dir": "HighTier_CarDealership"
+      }
+    }
+  },
+  "languages": [
+    "en",
+    "fr"
+  ]
+}

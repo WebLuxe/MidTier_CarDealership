@@ -1,0 +1,658 @@
+{
+  "updated": "2026-11-10",
+  "cars": [
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "variant": "1.8 Hybrid",
+      "year": 2020,
+      "price": 925000,
+      "mileage": 52000,
+      "fuel": "Hybrid",
+      "gearbox": "Automatic",
+      "body": "Sedan",
+      "colour": "White",
+      "colourFr": "Blanc",
+      "engine": "1.8 L",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-10-12",
+      "featured": true,
+      "photos": [
+        "toyota-corolla/1.jpg",
+        "toyota-corolla/2.jpg",
+        "toyota-corolla/3.jpg",
+        "toyota-corolla/4.jpg"
+      ],
+      "alts": [
+        "Side view of a white Toyota Corolla sedan parked on a seafront road under a blue sky.",
+        "Rear view of a white Toyota Corolla sedan parked on a track among pine trees.",
+        "Front three-quarter view of a white Toyota Corolla sedan parked on a gravel verge.",
+        "Close-up of the rear light and Corolla badge on a white Toyota Corolla sedan."
+      ],
+      "description": {
+        "en": "One owner from new, serviced at the main agent every 10,000 km. The hybrid system was checked last month and the battery report is in the service book.",
+        "fr": "Un seul propriétaire depuis le neuf, entretien chez l’agent tous les 10 000 km. Le système hybride a été contrôlé le mois dernier et le rapport de batterie est dans le carnet."
+      },
+      "highlights": {
+        "en": [
+          "Full service history",
+          "Reversing camera",
+          "Two keys"
+        ],
+        "fr": [
+          "Carnet d’entretien complet",
+          "Caméra de recul",
+          "Deux clés"
+        ]
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tucson",
+      "variant": "1.6 Hybrid",
+      "year": 2024,
+      "price": 1890000,
+      "mileage": 9000,
+      "fuel": "Hybrid",
+      "gearbox": "Automatic",
+      "body": "SUV",
+      "colour": "Dark grey",
+      "colourFr": "Gris foncé",
+      "engine": "1.6 L turbo",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-11-07",
+      "photos": [
+        "hyundai-tucson/1.jpg"
+      ],
+      "alts": [
+        "A dark grey Hyundai Tucson SUV parked in sunshine beside a concrete building with a palm tree behind it."
+      ],
+      "description": {
+        "en": "Nearly new, with the balance of the manufacturer warranty. Bought here and traded back in after nine months.",
+        "fr": "Presque neuve, avec le reste de la garantie constructeur. Achetée ici et reprise après neuf mois."
+      },
+      "highlights": {
+        "en": [
+          "Manufacturer warranty to 2029",
+          "Panoramic roof",
+          "Heated and cooled seats"
+        ],
+        "fr": [
+          "Garantie constructeur jusqu’en 2029",
+          "Toit panoramique",
+          "Sièges chauffants et ventilés"
+        ]
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Ranger",
+      "variant": "Wildtrak double cab",
+      "year": 2025,
+      "price": 2150000,
+      "mileage": 4500,
+      "fuel": "Diesel",
+      "gearbox": "Automatic",
+      "body": "Pickup",
+      "colour": "Light blue",
+      "colourFr": "Bleu clair",
+      "engine": "2.0 L bi-turbo",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-11-05",
+      "photos": [
+        "ford-ranger/1.jpg"
+      ],
+      "alts": [
+        "A pale blue-grey Ford Ranger double-cab pickup parked on a gravel track beside a grassy field."
+      ],
+      "description": {
+        "en": "Delivery mileage only. Tow bar, load liner and roller cover already fitted.",
+        "fr": "Kilométrage de livraison seulement. Attelage, protection de benne et couvre-benne déjà installés."
+      },
+      "highlights": {
+        "en": [
+          "4x4 with low range",
+          "Tow bar fitted",
+          "Roller load cover"
+        ],
+        "fr": [
+          "4x4 avec gamme courte",
+          "Attelage installé",
+          "Couvre-benne coulissant"
+        ]
+      }
+    },
+    {
+      "make": "Opel",
+      "model": "Corsa",
+      "variant": "1.2 Turbo",
+      "year": 2021,
+      "price": 745000,
+      "mileage": 24000,
+      "fuel": "Petrol",
+      "gearbox": "Automatic",
+      "body": "Hatchback",
+      "colour": "Orange",
+      "colourFr": "Orange",
+      "engine": "1.2 L turbo",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-11-02",
+      "photos": [
+        "vauxhall-corsa/1.jpg",
+        "vauxhall-corsa/2.jpg"
+      ],
+      "alts": [
+        "An orange Corsa hatchback parked on a brick driveway between garages on a sunny day.",
+        "Close-up of the rear corner of an orange Corsa showing the tail light and badge."
+      ],
+      "description": {
+        "en": "A low-mileage city car that is easy to park and cheap to run. New front tyres fitted for sale.",
+        "fr": "Une citadine peu kilométrée, facile à garer et économique. Pneus avant neufs montés pour la vente."
+      },
+      "highlights": {
+        "en": [
+          "Apple CarPlay and Android Auto",
+          "Parking sensors",
+          "New front tyres"
+        ],
+        "fr": [
+          "Apple CarPlay et Android Auto",
+          "Capteurs de stationnement",
+          "Pneus avant neufs"
+        ]
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "variant": "1.5 Turbo Sport",
+      "year": 2020,
+      "price": 895000,
+      "mileage": 41000,
+      "fuel": "Petrol",
+      "gearbox": "Automatic",
+      "body": "Hatchback",
+      "colour": "Red",
+      "colourFr": "Rouge",
+      "engine": "1.5 L turbo",
+      "seats": 5,
+      "owners": 2,
+      "added": "2026-10-28",
+      "photos": [
+        "honda-civic/1.jpg",
+        "honda-civic/2.jpg",
+        "honda-civic/3.jpg",
+        "honda-civic/4.jpg"
+      ],
+      "alts": [
+        "Low front three-quarter view of a red Honda Civic hatchback on an empty road under a clear sky.",
+        "Rear view of a red Honda Civic hatchback on a narrow lane between hedges and apartment blocks.",
+        "Rear three-quarter view of a red Honda Civic hatchback parked beside a brick building.",
+        "A red Honda Civic hatchback parked on a sunlit road lined with trees."
+      ],
+      "description": {
+        "en": "The sport hatchback in rallye red. Two owners, both serviced on time, and unmarked alloy wheels.",
+        "fr": "La version sport en rouge rallye. Deux propriétaires, entretiens à jour, jantes sans marque."
+      },
+      "highlights": {
+        "en": [
+          "Honda Sensing safety pack",
+          "Sunroof",
+          "Service history"
+        ],
+        "fr": [
+          "Pack sécurité Honda Sensing",
+          "Toit ouvrant",
+          "Historique d’entretien"
+        ]
+      }
+    },
+    {
+      "make": "Suzuki",
+      "model": "Swift",
+      "variant": "1.6 Sport",
+      "year": 2014,
+      "price": 395000,
+      "mileage": 92000,
+      "fuel": "Petrol",
+      "gearbox": "Manual",
+      "body": "Hatchback",
+      "colour": "White",
+      "colourFr": "Blanc",
+      "engine": "1.6 L",
+      "seats": 4,
+      "owners": 2,
+      "added": "2026-10-24",
+      "photos": [
+        "suzuki-swift/1.jpg",
+        "suzuki-swift/2.jpg",
+        "suzuki-swift/3.jpg",
+        "suzuki-swift/4.jpg"
+      ],
+      "alts": [
+        "A white Suzuki Swift Sport three-door hatchback parked on a concrete yard in front of an industrial building.",
+        "Rear three-quarter view of a white Suzuki Swift Sport parked on a gravel road under a cloudy sky.",
+        "A white Suzuki Swift Sport seen from the front on a narrow country lane between tall dry grass.",
+        "Low rear-quarter close-up of a white Suzuki Swift Sport showing the tail light, alloy wheel and roof spoiler."
+      ],
+      "description": {
+        "en": "The three-door Sport with the six-speed manual. Timing chain engine, clutch replaced at 80,000 km.",
+        "fr": "La Sport trois portes avec boîte manuelle six rapports. Moteur à chaîne, embrayage remplacé à 80 000 km."
+      },
+      "highlights": {
+        "en": [
+          "New clutch",
+          "Cruise control",
+          "Keyless start"
+        ],
+        "fr": [
+          "Embrayage neuf",
+          "Régulateur de vitesse",
+          "Démarrage sans clé"
+        ]
+      }
+    },
+    {
+      "make": "Opel",
+      "model": "Mokka",
+      "variant": "1.2 Turbo GS",
+      "year": 2021,
+      "price": 1095000,
+      "mileage": 31000,
+      "fuel": "Petrol",
+      "gearbox": "Automatic",
+      "body": "SUV",
+      "colour": "Green",
+      "colourFr": "Vert",
+      "engine": "1.2 L turbo",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-10-15",
+      "photos": [
+        "vauxhall-mokka/1.jpg",
+        "vauxhall-mokka/2.jpg"
+      ],
+      "alts": [
+        "A bright green Mokka compact SUV parked on a gravel driveway in front of a white garage door.",
+        "Rear three-quarter view of a bright green Mokka compact SUV on a gravel driveway."
+      ],
+      "description": {
+        "en": "High driving position in a car that still fits a town parking space. Black roof and digital dashboard.",
+        "fr": "Position de conduite haute dans une voiture qui se gare encore en ville. Toit noir et tableau de bord numérique."
+      },
+      "highlights": {
+        "en": [
+          "Digital dashboard",
+          "LED headlights",
+          "One owner"
+        ],
+        "fr": [
+          "Tableau de bord numérique",
+          "Phares LED",
+          "Un seul propriétaire"
+        ]
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf",
+      "variant": "GTI",
+      "year": 2021,
+      "price": 1650000,
+      "mileage": 28000,
+      "fuel": "Petrol",
+      "gearbox": "Automatic",
+      "body": "Hatchback",
+      "colour": "White",
+      "colourFr": "Blanc",
+      "engine": "2.0 L turbo",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-10-08",
+      "photos": [
+        "volkswagen-golf/1.jpg",
+        "volkswagen-golf/2.jpg",
+        "volkswagen-golf/3.jpg"
+      ],
+      "alts": [
+        "A white Volkswagen Golf GTI hatchback with its headlights on, parked on a curving tarmac road under a cloudy sky.",
+        "Front view of a white Volkswagen Golf GTI on a curving road with trees behind.",
+        "Close-up of the lit red tail light on a white Volkswagen Golf."
+      ],
+      "description": {
+        "en": "A standard, unmodified GTI with the DSG gearbox. Agent serviced, with both keys and the original tool kit.",
+        "fr": "Une GTI d’origine, non modifiée, avec boîte DSG. Entretenue chez l’agent, avec les deux clés et la trousse d’origine."
+      },
+      "highlights": {
+        "en": [
+          "Unmodified",
+          "Adaptive cruise control",
+          "Agent service history"
+        ],
+        "fr": [
+          "Non modifiée",
+          "Régulateur adaptatif",
+          "Entretien chez l’agent"
+        ]
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Hilux",
+      "variant": "2.4 D double cab",
+      "year": 2021,
+      "price": 1490000,
+      "mileage": 63000,
+      "fuel": "Diesel",
+      "gearbox": "Manual",
+      "body": "Pickup",
+      "colour": "White",
+      "colourFr": "Blanc",
+      "engine": "2.4 L",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-10-03",
+      "photos": [
+        "toyota-hilux/1.jpg"
+      ],
+      "alts": [
+        "A white Toyota Hilux double-cab pickup with a canopy parked on dry sandy ground among bushes."
+      ],
+      "description": {
+        "en": "A working double cab with a lockable canopy. Company owned and serviced every 10,000 km.",
+        "fr": "Un double cabine de travail avec hard-top verrouillable. Véhicule de société, entretien tous les 10 000 km."
+      },
+      "highlights": {
+        "en": [
+          "Lockable canopy",
+          "4x4",
+          "Company service record"
+        ],
+        "fr": [
+          "Hard-top verrouillable",
+          "4x4",
+          "Suivi d’entretien société"
+        ]
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "variant": "C 180 AMG Line",
+      "year": 2017,
+      "price": 1450000,
+      "mileage": 74000,
+      "fuel": "Petrol",
+      "gearbox": "Automatic",
+      "body": "Sedan",
+      "colour": "Dark green",
+      "colourFr": "Vert foncé",
+      "engine": "1.6 L turbo",
+      "seats": 5,
+      "owners": 2,
+      "added": "2026-09-27",
+      "photos": [
+        "mercedes-benz-c-class/1.jpg",
+        "mercedes-benz-c-class/2.jpg",
+        "mercedes-benz-c-class/3.jpg"
+      ],
+      "alts": [
+        "A dark green Mercedes-Benz C-Class sedan parked on tarmac in front of a plain white wall.",
+        "Front view of a dark green Mercedes-Benz C-Class sedan parked beside a white wall.",
+        "Front three-quarter view of a dark green Mercedes-Benz C-Class sedan with trees and a white wall behind it."
+      ],
+      "description": {
+        "en": "AMG Line in a rare dark green. Brakes and tyres replaced within the last 5,000 km.",
+        "fr": "AMG Line dans un vert foncé rare. Freins et pneus remplacés dans les 5 000 derniers km."
+      },
+      "highlights": {
+        "en": [
+          "Leather seats",
+          "New brakes and tyres",
+          "Navigation"
+        ],
+        "fr": [
+          "Sièges en cuir",
+          "Freins et pneus neufs",
+          "Navigation"
+        ]
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Polo",
+      "variant": "GT 1.2 TSI",
+      "year": 2017,
+      "price": 495000,
+      "mileage": 68000,
+      "fuel": "Petrol",
+      "gearbox": "Automatic",
+      "body": "Hatchback",
+      "colour": "Red",
+      "colourFr": "Rouge",
+      "engine": "1.2 L turbo",
+      "seats": 5,
+      "owners": 2,
+      "added": "2026-09-20",
+      "photos": [
+        "volkswagen-polo/1.jpg",
+        "volkswagen-polo/2.jpg"
+      ],
+      "alts": [
+        "A red Volkswagen Polo GT hatchback parked on an open grassy field beside a large tree.",
+        "Front view of a red Volkswagen Polo GT parked on grass under tall trees."
+      ],
+      "description": {
+        "en": "The GT with the turbo engine and automatic gearbox. Gearbox oil and service done for sale.",
+        "fr": "La GT avec moteur turbo et boîte automatique. Vidange de boîte et entretien faits pour la vente."
+      },
+      "highlights": {
+        "en": [
+          "Fresh service",
+          "Cruise control",
+          "Bluetooth"
+        ],
+        "fr": [
+          "Entretien récent",
+          "Régulateur de vitesse",
+          "Bluetooth"
+        ]
+      }
+    },
+    {
+      "make": "Suzuki",
+      "model": "Jimny",
+      "variant": "1.5 AllGrip",
+      "year": 2020,
+      "price": 1150000,
+      "mileage": 38000,
+      "fuel": "Petrol",
+      "gearbox": "Manual",
+      "body": "SUV",
+      "colour": "Yellow",
+      "colourFr": "Jaune",
+      "engine": "1.5 L",
+      "seats": 4,
+      "owners": 1,
+      "added": "2026-09-14",
+      "status": "reserved",
+      "photos": [
+        "suzuki-jimny/1.jpg"
+      ],
+      "alts": [
+        "Side view of a lime-yellow Suzuki Jimny with a roof rack parked on a grassy hillside with mountains behind."
+      ],
+      "description": {
+        "en": "The one everybody asks for. Roof rack fitted, never used off road by its one owner.",
+        "fr": "Celle que tout le monde demande. Galerie de toit installée, jamais utilisée en tout-terrain par son unique propriétaire."
+      },
+      "highlights": {
+        "en": [
+          "4x4 with low range",
+          "Roof rack",
+          "One owner"
+        ],
+        "fr": [
+          "4x4 avec gamme courte",
+          "Galerie de toit",
+          "Un seul propriétaire"
+        ]
+      }
+    },
+    {
+      "make": "Jaguar",
+      "model": "I-PACE",
+      "variant": "EV400 S",
+      "year": 2020,
+      "price": 2350000,
+      "mileage": 45000,
+      "fuel": "Electric",
+      "gearbox": "Automatic",
+      "body": "SUV",
+      "colour": "Silver",
+      "colourFr": "Argent",
+      "engine": "90 kWh",
+      "seats": 5,
+      "owners": 1,
+      "added": "2026-09-06",
+      "photos": [
+        "jaguar-i-pace/1.jpg",
+        "jaguar-i-pace/2.jpg"
+      ],
+      "alts": [
+        "A silver Jaguar I-PACE parked in an open car park with grass, trees and a blue sky behind.",
+        "Rear three-quarter view of a silver Jaguar I-PACE parked in a car park beside a large tree."
+      ],
+      "description": {
+        "en": "Fully electric with about 400 km of range. Battery health report at 94% and a home charger cable included.",
+        "fr": "Entièrement électrique, environ 400 km d’autonomie. Rapport de batterie à 94 % et câble de recharge domestique inclus."
+      },
+      "highlights": {
+        "en": [
+          "Battery health 94%",
+          "Home charging cable",
+          "Air suspension"
+        ],
+        "fr": [
+          "Batterie à 94 %",
+          "Câble de recharge domestique",
+          "Suspension pneumatique"
+        ]
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Transit Connect",
+      "variant": "1.5 TDCi",
+      "year": 2024,
+      "price": 1250000,
+      "mileage": 12000,
+      "fuel": "Diesel",
+      "gearbox": "Manual",
+      "body": "Van",
+      "colour": "Dark grey",
+      "colourFr": "Gris foncé",
+      "engine": "1.5 L",
+      "seats": 2,
+      "owners": 1,
+      "added": "2026-08-30",
+      "photos": [
+        "ford-transit-connect/1.jpg"
+      ],
+      "alts": [
+        "A dark grey Ford Transit Connect van parked on a gravel path next to a field and trees."
+      ],
+      "description": {
+        "en": "A small van with a full bulkhead and ply-lined load bay. Fits a standard pallet between the arches.",
+        "fr": "Un petit utilitaire avec cloison complète et espace de chargement habillé. Une palette standard passe entre les arches."
+      },
+      "highlights": {
+        "en": [
+          "Ply-lined load bay",
+          "Side loading door",
+          "Reversing sensors"
+        ],
+        "fr": [
+          "Espace de chargement habillé",
+          "Porte latérale",
+          "Capteurs de recul"
+        ]
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Avalon",
+      "variant": "2.5 Hybrid",
+      "year": 2014,
+      "price": 675000,
+      "mileage": 110000,
+      "fuel": "Hybrid",
+      "gearbox": "Automatic",
+      "body": "Sedan",
+      "colour": "Silver",
+      "colourFr": "Argent",
+      "engine": "2.5 L",
+      "seats": 5,
+      "owners": 2,
+      "added": "2026-08-22",
+      "photos": [
+        "toyota-avalon/1.jpg"
+      ],
+      "alts": [
+        "A silver Toyota Avalon sedan parked on a city street in front of modern buildings."
+      ],
+      "description": {
+        "en": "A big, quiet saloon for long drives. Imported with full papers and a clean auction sheet.",
+        "fr": "Une grande berline silencieuse pour les longs trajets. Importée avec tous ses papiers et une fiche d’enchère propre."
+      },
+      "highlights": {
+        "en": [
+          "Leather seats",
+          "Import papers",
+          "Hybrid battery checked"
+        ],
+        "fr": [
+          "Sièges en cuir",
+          "Papiers d’importation",
+          "Batterie hybride contrôlée"
+        ]
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Land Cruiser",
+      "variant": "2.8 D",
+      "year": 2024,
+      "price": 4950000,
+      "mileage": 6000,
+      "fuel": "Diesel",
+      "gearbox": "Automatic",
+      "body": "SUV",
+      "colour": "Dark grey",
+      "colourFr": "Gris foncé",
+      "engine": "2.8 L",
+      "seats": 7,
+      "owners": 1,
+      "added": "2026-08-10",
+      "status": "sold",
+      "photos": [
+        "toyota-land-cruiser/1.jpg"
+      ],
+      "alts": [
+        "A dark grey Toyota Land Cruiser parked on gravel in front of a green field and trees."
+      ],
+      "description": {
+        "en": "The new shape, seven seats. Sold within the week.",
+        "fr": "La nouvelle génération, sept places. Vendue dans la semaine."
+      },
+      "highlights": {
+        "en": [],
+        "fr": []
+      }
+    }
+  ]
+}

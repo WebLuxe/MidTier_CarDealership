@@ -1,0 +1,72 @@
+/* Starter tier: bright and friendly. A short opening, soft page changes, a page for every car. */
+@import "./base.css";
+@import "./shop.css";
+
+/* the light header (Business and Signature use the dealer's dark colour) */
+.hd { background: var(--white); color: var(--ink); border-bottom: 1px solid var(--line); }
+.hd-nav a:hover { border-color: var(--line); }
+
+.hero-low { background: var(--white); border-bottom: 1px solid var(--line); }
+.hero-low .hero-in { display: grid; gap: clamp(24px, 4vw, 56px); padding-block: clamp(28px, 6vw, 72px); align-items: center; }
+.hero-copy { display: grid; gap: 18px; justify-items: start; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.hero-cta > .btn + .btn { margin-left: 0; }
+.quick { display: grid; gap: 8px; color: var(--ink-2); font-weight: 500; }
+.quick li { display: flex; gap: 10px; align-items: start; }
+.quick .i { margin-top: 2px; color: var(--ink); }
+.hero-photo { position: relative; display: block; margin-bottom: 18px; }
+.hero-photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r-lg); transition: scale .5s var(--ease); }
+.hero-photo .sticker { position: absolute; left: clamp(12px, 3vw, 24px); bottom: -18px; rotate: -2deg; transition: rotate .3s var(--ease), scale .3s var(--ease); }
+.hero-photo:hover .sticker { rotate: 0deg; scale: 1.04; }
+@media (min-width: 900px) { .hero-low .hero-in { grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr); } }
+@media (max-width: 520px) { .hero-cta .btn { flex: 1 1 100%; } }
+
+/* the page opens: words first, then the photo, then its price sticker lands */
+.hero-low .hero-copy > * { animation: up .6s var(--ease) both; }
+.hero-low .hero-copy > :nth-child(2) { animation-delay: .08s; }
+.hero-low .hero-copy > :nth-child(3) { animation-delay: .16s; }
+.hero-low .hero-copy > :nth-child(4) { animation-delay: .24s; }
+.hero-low .hero-photo { animation: up .7s .15s var(--ease) both; }
+.hero-low .hero-photo .sticker { animation: stick .5s .7s cubic-bezier(.3, 1.6, .5, 1) both; }
+@keyframes up { from { opacity: 0; translate: 0 18px; } }
+@keyframes stick { from { opacity: 0; scale: 1.5; rotate: 6deg; } }
+.card-photo img { transition: scale .5s var(--ease); }
+@media (hover: hover) { .card:hover .card-photo img { scale: 1.04; } }
+
+.p-home .latest .grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.p-cars .page-head, .p-contact .page-head { padding-bottom: 8px; }
+.p-contact .visit { padding-top: 24px; }
+.visit .form { grid-column: 1 / -1; max-width: 760px; }
+.ft { padding-bottom: 76px; }
+
+/* loading screen: the name plate on white, then it slides up into the menu bar */
+html.loading { overflow: hidden; }
+html.loading body::before, .cover { content: ""; position: fixed; inset: 0; background: var(--white); z-index: 90; }
+html.loading .hd { z-index: 95; background: none; border-color: transparent; }
+html.loading .hd-nav, html.loading .hd-side { visibility: hidden; }
+html.loading .hd .logo { position: fixed; left: 50%; top: 46%; translate: -50% -50%; scale: 1.7; animation: pop .5s var(--ease) both; }
+@keyframes pop { from { opacity: 0; scale: 1.4; } }
+
+/* page changes: a soft crossfade, with the menu bar holding still */
+@view-transition { navigation: auto; }
+.hd { view-transition-name: hd; }
+.demo { view-transition-name: demo; }
+::view-transition-old(root) { animation: vt-out .18s ease both; }
+::view-transition-new(root) { animation: vt-in .28s .04s ease both; }
+@keyframes vt-out { to { opacity: 0; } }
+@keyframes vt-in { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { @view-transition { navigation: none; } }
+
+/* no floating bubble: WhatsApp lives in the menu bar instead */
+.ft { padding-bottom: 0; }
+.hd-wa { background: var(--wa); color: var(--wa-ink); border-color: var(--wa); }
+.hd-wa:hover { background: #1fc25c; }
+@media (min-width: 900px) { .hd-wa span { display: inline; } }
+@media (max-width: 639px) { .p-home .latest .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* phones: a car first, then the words, so the first screen sells */
+@media (max-width: 899px) {
+  .hero-low .hero-in { padding-top: 14px; gap: 30px; }
+  .hero-low .hero-photo { order: -1; margin-bottom: 0; }
+  .hero-low .hero-photo img { aspect-ratio: 16 / 10; }
+  .hero-low .h1 { font-size: clamp(1.9rem, 8.4vw, 2.4rem); }
+}

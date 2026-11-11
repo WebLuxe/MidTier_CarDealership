@@ -1,0 +1,20 @@
+{
+  "name": "showroom-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One dealership, three website tiers. Change the client folder, build, ship.",
+  "scripts": {
+    "build": "node src/build.mjs all",
+    "build:low": "node src/build.mjs low",
+    "build:mid": "node src/build.mjs mid",
+    "build:high": "cd flagship && node scripts/prerender.mjs && npx vite build --outDir ../dist/HighTier_CarDealership --emptyOutDir",
+    "serve": "node serve.mjs",
+    "demo": "node src/build.mjs all && node serve.mjs",
+    "client:high": "cd flagship && node scripts/apply-client.mjs ../client"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "sharp": "^0.33.5"
+  }
+}

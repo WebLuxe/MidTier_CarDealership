@@ -1,0 +1,179 @@
+/* Signature tier: the opening moment, the budget dial, the inspection scene, page changes that flow, save and compare. */
+@import "./base.css";
+@import "./shop.css";
+
+/* hero: the forecourt, with the budget dial on it */
+.hero-high { position: relative; color: #fff; background: var(--ink); isolation: isolate; }
+.hero-bg { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+.hero-bg img { width: 100%; height: 100%; object-fit: cover; }
+.hero-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--ink) 96%, transparent) 0%, color-mix(in srgb, var(--ink) 82%, transparent) 34%, transparent 72%); }
+.hero-high .hero-in { display: grid; gap: clamp(22px, 4vw, 56px); padding-block: clamp(28px, 6vw, 84px); align-items: center; min-height: min(78vh, 760px); }
+.hero-high .hero-copy { display: grid; gap: 18px; }
+.hero-high .h1 { font-size: clamp(2.1rem, 5.6vw, 4rem); }
+.hero-high .lead { color: #d5dbe2; }
+.dial { background: var(--white); color: var(--ink); border-radius: 20px; padding: clamp(16px, 2.4vw, 26px); display: grid; gap: 12px; box-shadow: 0 30px 70px -30px rgb(0 0 0 / .8); min-width: 0; }
+.dial-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 14px; }
+.dial-q { font: 700 1.1rem/1.2 var(--font); font-stretch: 106%; }
+.seg { display: inline-flex; padding: 3px; background: var(--paper); border-radius: 999px; }
+.seg button { border: 0; background: none; min-height: 36px; padding: 0 14px; border-radius: 999px; font-weight: 650; font-size: .9rem; color: var(--ink-2); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.dial-v { font: 800 clamp(2rem, 5.5vw, 3rem)/1 var(--font); font-stretch: 112%; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.picks { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; min-height: 118px; align-items: start; }
+.pick { display: grid; grid-template-columns: minmax(0, 1fr); gap: 5px; text-decoration: none; font-size: .78rem; line-height: 1.2; color: var(--ink-2); animation: pick .3s var(--ease) both; min-width: 0; }
+.pick img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 9px; }
+.pick b { display: block; color: var(--ink); font-size: .84rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pick:hover img { outline: 2px solid var(--ink); outline-offset: 2px; }
+.picks-none { grid-column: 1 / -1; align-self: center; color: var(--mute); font-weight: 600; }
+.dial-go { width: 100%; }
+@keyframes pick { from { opacity: 0; scale: .94; } }
+@media (min-width: 960px) { .hero-high .hero-in { grid-template-columns: 1.1fr minmax(380px, .9fr); } }
+@media (max-width: 420px) { .picks { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* inspection: the photo holds still while the four checks pass */
+.checks { background: var(--ink); color: #fff; padding-block: var(--sec); }
+.checks-in { display: grid; gap: clamp(22px, 4vw, 64px); align-items: start; }
+.checks-pin figure { position: relative; border-radius: 20px; overflow: hidden; }
+.checks-pin img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.checks-pin figcaption { position: absolute; left: 16px; bottom: 14px; display: flex; align-items: baseline; gap: 8px; background: var(--accent); color: var(--on-accent); padding: 8px 14px 6px; border-radius: 10px; font-weight: 700; }
+.checks-pin figcaption b { font: 800 2.2rem/1 var(--font); font-stretch: 112%; font-variant-numeric: tabular-nums; }
+.checks-copy { display: grid; gap: 16px; justify-items: start; }
+.checks .lead { color: #c9d0d9; }
+.checks .more { color: #fff; }
+.checks-list { display: grid; width: 100%; }
+.checks-list li { padding: 18px 0 18px 20px; border-left: 3px solid rgb(255 255 255 / .2); transition: border-color .35s, opacity .35s; }
+.checks-list h3 { font: 720 1.25rem/1.2 var(--font); font-stretch: 106%; margin-bottom: 4px; }
+.checks-list p { color: #c9d0d9; max-width: 46ch; }
+@media (min-width: 900px) {
+  .checks-in { grid-template-columns: 1fr 1fr; }
+  .checks-pin { position: sticky; top: 96px; }
+  .checks-pin img { aspect-ratio: 4 / 4.4; }
+  .checks.is-live .checks-list li { padding-block: 9vh; opacity: .35; }
+  .checks.is-live .checks-list li.is-on { opacity: 1; border-color: var(--accent); }
+}
+@media (max-width: 899px) { .checks-list li { border-color: var(--accent); } .checks-pin figcaption { display: none; } }
+.steps-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 22px 32px; margin-top: 24px; }
+.checks-flat { padding-block: var(--sec); }
+
+/* save and compare */
+.card-tools { position: absolute; top: 8px; right: 8px; z-index: 2; display: flex; gap: 6px; }
+.tool { width: 40px; height: 40px; border-radius: 50%; border: 0; background: rgb(255 255 255 / .94); color: var(--ink); display: grid; place-items: center; box-shadow: 0 3px 10px -3px rgb(0 0 0 / .45); transition: scale .15s var(--ease); }
+.tool:active { scale: .9; }
+.tool[aria-pressed="true"] { background: var(--ink); color: var(--accent); }
+.tool[data-save][aria-pressed="true"] .i { fill: currentColor; }
+.cmp { padding-bottom: var(--sec); }
+.cmp-table { overflow-x: auto; }
+.cmp-table table { width: 100%; min-width: calc(var(--n) * 190px + 120px); border-collapse: collapse; table-layout: fixed; }
+.cmp-table th, .cmp-table td { padding: 12px 14px; border-top: 1px solid var(--line); text-align: left; vertical-align: top; }
+.cmp-table thead th, .cmp-table thead td { border-top: 0; }
+.cmp-table thead td { width: 150px; }
+.cmp-table tbody th { width: 120px; font-weight: 500; color: var(--mute); }
+.cmp-table thead a { display: grid; gap: 8px; text-decoration: none; }
+.cmp-table thead img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
+.cmp-table thead b { font: 720 1.1rem/1.2 var(--font); }
+.cmp-table td { font-weight: 600; }
+.cmp-price { font: 800 1.25rem/1.1 var(--font) !important; font-variant-numeric: tabular-nums; }
+.cmp-table td.best { background: linear-gradient(var(--accent), var(--accent)) left 6px bottom 8px / 4px calc(100% - 16px) no-repeat; padding-left: 20px; }
+.cmp-add { margin-top: 16px; }
+
+/* about */
+.about-in { display: grid; gap: clamp(22px, 4vw, 56px); align-items: center; padding-bottom: var(--sec); }
+.about-copy { display: grid; gap: 16px; font-size: 1.1rem; max-width: 60ch; }
+.about-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 20px; }
+@media (min-width: 900px) { .about-in { grid-template-columns: 1.1fr 1fr; } }
+.prose { padding-bottom: var(--sec); }
+.prose h2 { margin: 26px 0 6px; }
+.prose p { max-width: 68ch; color: var(--ink-2); }
+.nf { padding-block: clamp(60px, 14vh, 160px); display: grid; gap: 18px; justify-items: start; }
+
+/* photos full screen */
+.lb { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: #07090c; }
+.lb::backdrop { background: #07090c; }
+.lb-track { display: flex; height: 100%; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.lb-track::-webkit-scrollbar { display: none; }
+.lb-track li { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; display: grid; place-items: center; padding: 8px; }
+.lb-track img { max-width: 100%; max-height: calc(100dvh - 16px); width: auto; height: auto; object-fit: contain; }
+.lb-x { position: fixed; top: 14px; right: 14px; z-index: 2; width: 48px; height: 48px; border-radius: 50%; border: 0; background: rgb(255 255 255 / .94); color: var(--ink); display: grid; place-items: center; }
+
+/* the opening: the name plate waits in the middle, then drives up into the menu bar */
+html.loading { overflow: hidden; }
+html.loading body::before, .cover { content: ""; position: fixed; inset: 0; background: var(--ink); z-index: 90; }
+html.loading .hd { z-index: 95; background: none; }
+html.loading .hd-nav, html.loading .hd-side { visibility: hidden; }
+html.loading .hd .logo { position: fixed; left: 50%; top: 46%; translate: -50% -50%; scale: 1.9; }
+html.loading .hd .logo-plate { animation: plate 1.1s .1s var(--ease) both; }
+@keyframes plate { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0); } }
+html.opened .hd-nav, html.opened .hd-side, html.opened .hero-high .hero-copy > *, html.opened .dial { animation: rise .7s .25s var(--ease) both; }
+html.opened .hero-high .hero-copy > :nth-child(2) { animation-delay: .33s; }
+html.opened .dial { animation-delay: .42s; }
+@keyframes rise { from { opacity: 0; translate: 0 22px; } }
+
+/* page changes: the header holds still, the page crossfades, a tapped car photo grows into its page */
+@view-transition { navigation: auto; }
+.hd { view-transition-name: hd; }
+.demo { view-transition-name: demo; }
+.dock { view-transition-name: dock; }
+.gal-slide:first-child img { view-transition-name: car-photo; }
+::view-transition-old(root) { animation: vt-out .16s ease both; }
+::view-transition-new(root) { animation: vt-in .3s .04s var(--ease) both; }
+::view-transition-group(car-photo) { animation-duration: .44s; animation-timing-function: cubic-bezier(.6, 0, .2, 1); }
+::view-transition-old(car-photo), ::view-transition-new(car-photo) { height: 100%; object-fit: cover; }
+@keyframes vt-out { to { opacity: 0; } }
+@keyframes vt-in { from { opacity: 0; translate: 0 10px; } }
+@media (prefers-reduced-motion: reduce) { @view-transition { navigation: none; } }
+
+/* the Business look: navy and blue, squarer, so it does not read as Starter with more pages */
+:root { --r: 8px; --r-lg: 12px; --paper: #eef2f8; --line: #cfd8e6; --line-2: #e2e8f2; }
+.card, .dial, .body-list a, .filters, .calc, .form, .checks-pin figure, .about-photo img, .gal-main { border-radius: 12px; }
+.reviews-list li { border-radius: 2px 10px 10px 10px; }
+.btn, .hd-call, .seg, .seg button, .chk span, .map-load { border-radius: 8px; }
+.h1, .h2, .car-name { font-stretch: 100%; letter-spacing: -.03em; }
+.logo-plate { border-radius: 3px; }
+.sticker { border-radius: 4px; }
+
+
+@media (max-width: 959px) { .hero-bg::after { background: linear-gradient(180deg, color-mix(in srgb, var(--ink) 90%, transparent) 0%, color-mix(in srgb, var(--ink) 70%, transparent) 100%); } }
+.bodies { padding-top: 0; }
+.why { background: var(--white); }
+
+
+/* the hero: the dealer's own cars drift past, one every five seconds, each with its price sticker */
+.hero-slide { position: absolute; inset: 0; margin: 0; opacity: 0; animation: slide 20s linear infinite; animation-delay: calc(var(--i) * 5s - 1s); }
+.hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 60%; animation: drift 20s linear infinite; animation-delay: inherit; }
+.hero-slide .sticker { position: absolute; right: clamp(16px, 4vw, 56px); bottom: clamp(14px, 3vw, 30px); rotate: -2deg; z-index: 1; }
+@keyframes slide { 0% { opacity: 0; } 5%, 25% { opacity: 1; } 30%, 100% { opacity: 0; } }
+@keyframes drift { 0% { scale: 1.12; translate: -1.5% 0; } 30%, 100% { scale: 1; translate: 1.5% 0; } }
+.hero-bg::after { display: none; }
+.hero-slide::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--ink) 94%, transparent) 0%, color-mix(in srgb, var(--ink) 74%, transparent) 36%, transparent 70%); }
+.hero-slide .sticker { z-index: 2; }
+@media (min-width: 960px) { .hero-slide .sticker { right: auto; left: max(var(--gut), (100vw - var(--wrap)) / 2); } .hero-high .hero-in { padding-bottom: clamp(90px, 12vh, 130px); } }
+@media (max-width: 959px) {
+  .hero-bg { position: relative; z-index: 0; height: 56vw; max-height: 300px; }
+  .hero-slide::after { background: linear-gradient(180deg, transparent 55%, var(--ink) 100%); }
+  .hero-high .hero-in { padding-top: 10px; min-height: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .hero-slide { animation: none; } .hero-slide:first-child { opacity: 1; } .hero-slide img { animation: none; } }
+
+/* 2026-11-11: the thumb bar already has Call on phones, so the car page does not repeat it */
+@media (max-width: 899px) {
+  .car-cta > [data-tel] { display: none; }
+  .car-cta > .btn-ink { grid-column: 1 / -1 !important; }
+}
+/* body types as one swipeable row under the newest cars */
+.chips { display: flex; align-items: center; gap: 8px; overflow-x: auto; scrollbar-width: none; margin-top: 6px; padding-block: 4px; }
+.chips::-webkit-scrollbar { display: none; }
+.chips > span { flex: none; font-weight: 650; color: var(--mute); margin-right: 4px; }
+.chips a { flex: none; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px 0 10px; background: var(--white); border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-weight: 650; }
+.chips a:hover { border-color: var(--ink); }
+.chips .shape { width: 38px; margin: 0; }
+.chips b { font-size: .8rem; min-width: 22px; height: 22px; line-height: 22px; text-align: center; border-radius: 11px; background: var(--paper); color: var(--ink-2); }
+/* the finance strip: one line and two buttons, no second calculator on the home page */
+.band-slim { padding-block: clamp(36px, 6vw, 64px); }
+.band-slim .band-in { gap: 18px; }
+.band-cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.band-cta .btn + .btn { margin-left: 0; }
+@media (max-width: 520px) { .band-cta .btn { flex: 1 1 100%; } }
+@media (min-width: 900px) { .band-slim .band-in { grid-template-columns: 1.4fr 1fr; } .band-cta { justify-content: flex-end; } }
+/* budget dial: short names on two lines instead of cut off */
+.pick b { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+/* on phones the thumb bar is the WhatsApp button (it writes about this car), so the page offers the viewing */
+@media (max-width: 899px) { .car-cta > .btn-wa { display: none; } }
