@@ -1,0 +1,21 @@
+# WebLuxe Cars
+
+Used car dealer at 24 Royal Road, Phoenix, Mauritius. Phone 5123 4567.
+
+## Cars in stock (2026-11-10)
+
+- 2024 Hyundai Tucson: Rs 1,890,000, 9,000 km, Automatic, Hybrid
+- 2025 Ford Ranger: Rs 2,150,000, 4,500 km, Automatic, Diesel
+- 2021 Opel Corsa: Rs 745,000, 24,000 km, Automatic, Petrol
+- 2020 Honda Civic: Rs 895,000, 41,000 km, Automatic, Petrol
+- 2014 Suzuki Swift: Rs 395,000, 92,000 km, Manual, Petrol
+- 2021 Opel Mokka: Rs 1,095,000, 31,000 km, Automatic, Petrol
+- 2020 Toyota Corolla: Rs 925,000, 52,000 km, Automatic, Hybrid
+- 2021 Volkswagen Golf: Rs 1,650,000, 28,000 km, Automatic, Petrol
+- 2021 Toyota Hilux: Rs 1,490,000, 63,000 km, Manual, Diesel
+- 2017 Mercedes-Benz C-Class: Rs 1,450,000, 74,000 km, Automatic, Petrol
+- 2017 Volkswagen Polo: Rs 495,000, 68,000 km, Automatic, Petrol
+- 2020 Suzuki Jimny: Rs 1,150,000, 38,000 km, Manual, Petrol
+- 2020 Jaguar I-PACE: Rs 2,350,000, 45,000 km, Automatic, Electric
+- 2024 Ford Transit Connect: Rs 1,250,000, 12,000 km, Manual, Diesel
+- 2014 Toyota Avalon: Rs 675,000, 110,000 km, Automatic, Hybrid
